@@ -37,7 +37,7 @@ const App = () => {
         (directorFilter ? film.director.toLowerCase().includes(directorFilter.toLowerCase()) : true) &&
         (yearFilter ? new Date(film.releaseDate).getFullYear().toString() === yearFilter : true)
     );
-});
+  });
 
 
   // Sort films based on the selected field
